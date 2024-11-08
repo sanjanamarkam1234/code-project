@@ -1,0 +1,103 @@
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box ;
+    font-family: "Outfit", sans-serif;
+
+}
+ /* body{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    background: linear-gradient(45deg ,#803131, #3a4452);
+    
+}  */
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://media.istockphoto.com/id/525108931/photo/design-of-dark-wood-background.jpg?s=612x612&w=0&k=20&c=jRaCsu__WwK8RKKEVndhfBeWsSQD3WqL98guWt8QYOg=');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.Calcutator{
+    border:1px solid #98ad95; 
+    padding: 20px;
+    border-radius: 16px; 
+    background: rgb(49, 48, 48);
+    box-shadow: 0px 3px 15px rgba(113,115,119,0.5);  
+
+    
+}
+
+ input{
+    width: 320px;
+    border: solid 2px rgb(167, 167, 109); 
+    padding: 24px;
+    margin: 10px; 
+    background: transparent; 
+    box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.1); 
+    font-size: px;
+    text-align: right;
+    cursor: pointer;
+    color: #ffffff; 
+
+}
+
+input::placeholder{
+    color: #ffffff;
+
+}
+
+button{
+     border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    /* border-radius: 50%; */
+    background: transparent;
+    color: #fae9e9;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(209, 150, 150, 0.9);
+    cursor: pointer; 
+    
+}
+
+ .equalBtn{
+    background-color: #ce7227;
+
+}
+.operator{
+    color: #68da11;
+}     
+
+.addBtn{
+    background-color: #ce7227;
+}
+.mulBtn{
+    background-color: #ce7227;
+}
+.subBtn{
+    background-color: #ce7227;
+}
+.modBtn{
+    background-color: #717377;
+}
+.divBtn{
+    background-color: #717377;
+}
+.acBtn{
+    background-color: #717377;
+}
+.delBtn{
+    background-color: #717377;
+}
